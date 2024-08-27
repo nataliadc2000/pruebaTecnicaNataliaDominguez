@@ -48,7 +48,7 @@ const PageTable = () => {
       
   
     const loadMoreData = () => {
-      setPage(page);
+      setPage(page + 1);
     };
   
     return (
