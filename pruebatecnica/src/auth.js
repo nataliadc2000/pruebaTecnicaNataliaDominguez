@@ -7,7 +7,8 @@ export const login = async (username, password) => {
       password: password
     }, {
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'User-Agent':'insomnia/8.6.1'
       }
     });
 
