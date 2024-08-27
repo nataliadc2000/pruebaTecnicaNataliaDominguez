@@ -3,7 +3,7 @@ import './../styles/Table.css'; // Asegúrate de que la ruta sea correcta
 
 const Table = ({ data }) => {
   return (
-    <div className='table-wrapper'>/{/* Container para el desplazamiento horizontal*/ }
+    <div className='table-wrapper'>{/* Container para el desplazamiento horizontal*/ }
     <table className="table">
       <thead>
         <tr>
